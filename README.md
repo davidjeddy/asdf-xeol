@@ -1,6 +1,6 @@
 <div align="center">
 
-# asdf-xeol [![Build](https://github.com/David J Eddy/asdf-xeol/actions/workflows/build.yml/badge.svg)](https://github.com/David J Eddy/asdf-xeol/actions/workflows/build.yml) [![Lint](https://github.com/David J Eddy/asdf-xeol/actions/workflows/lint.yml/badge.svg)](https://github.com/David J Eddy/asdf-xeol/actions/workflows/lint.yml)
+# asdf-xeol [![Build](https://github.com/davidjeddy/asdf-xeol/actions/workflows/build.yml/badge.svg)](https://github.com/davidjeddy/asdf-xeol/actions/workflows/build.yml) [![Lint](https://github.com/davidjeddy/asdf-xeol/actions/workflows/lint.yml/badge.svg)](https://github.com/davidjeddy/asdf-xeol/actions/workflows/lint.yml)
 
 [xeol](https://docs.xeol.io/intro) plugin for the [asdf version manager](https://asdf-vm.com).
 
@@ -27,7 +27,7 @@ Plugin:
 ```shell
 asdf plugin add xeol
 # or
-asdf plugin add xeol https://github.com/David J Eddy/asdf-xeol.git
+asdf plugin add xeol https://github.com/davidjeddy/asdf-xeol.git
 ```
 
 xeol:
@@ -53,8 +53,8 @@ install & manage versions.
 
 Contributions of any kind welcome! See the [contributing guide](contributing.md).
 
-[Thanks goes to these contributors](https://github.com/David J Eddy/asdf-xeol/graphs/contributors)!
+[Thanks goes to these contributors](https://github.com/davidjeddy/asdf-xeol/graphs/contributors)!
 
 # License
 
-See [LICENSE](LICENSE) © [David J eddy](https://github.com/David J Eddy/)
+See [LICENSE](LICENSE) © [David J eddy](https://github.com/davidjeddy/)
