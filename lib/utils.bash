@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 
-set -euox pipefail
+set -euo pipefail
+
+if [[ $LOG_LEVEL == "TRACE" ]]; then
+	set -x
+fi
 
 GH_REPO="https://github.com/xeol-io/xeol"
 TOOL_NAME="xeol"
