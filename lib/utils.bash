@@ -38,10 +38,8 @@ download_release() {
 	version="$1"
 	filename="$2"
 
-	# exmple https://github.com/xeol-io/xeol/releases/download/v0.10.8/xeol_0.10.8_linux_amd64.tar.gz
 	platform=$(uname -m)
-	if [ "$platform" == "aarch64" ]
-	then
+	if [ "$platform" == "aarch64" ]; then
 		platform="arm64"
 	fi
 	
