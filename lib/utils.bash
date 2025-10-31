@@ -42,7 +42,7 @@ download_release() {
 	if [ "$platform" == "aarch64" ]; then
 		platform="arm64"
 	fi
-	
+
 	url="$GH_REPO/releases/download/v${version}/xeol_${version}_linux_${platform}.tar.gz"
 
 	echo "* Downloading $TOOL_NAME release $version..."
