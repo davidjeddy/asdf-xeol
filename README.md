@@ -22,9 +22,10 @@
 Plugin:
 
 ```shell
-asdf plugin add xeol
-# or
+# recommended
 asdf plugin add xeol https://github.com/davidjeddy/asdf-xeol.git
+# using asdf-vm plugins shorthand https://github.com/asdf-vm/asdf-plugins
+asdf plugin add xeol
 ```
 
 xeol:
